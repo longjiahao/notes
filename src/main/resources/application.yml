@@ -1,0 +1,10 @@
+server:
+  port: 8084
+#management.endpoints.web.exposure.include=*
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.137.55:8848
+  application:
+    name: notes-client
